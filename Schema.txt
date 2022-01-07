@@ -1,4 +1,4 @@
-1. Below is our database schema
+1. Below is my database schema
 
 Items(ItemID*, Name, Buy_Price, First_Bid, Started, Ends, SellerID, Location, Latitude, Longitude, Country, Description)
 Category(ItemID*, Category*)
@@ -20,6 +20,5 @@ e. Merging Sellers and Bidders into one table Users would lead to many NULL entr
 {UsersID} -> {SellRating}
 {UsersID} -> {Location, Country, BuyRating}
 
-3. Yes our relations are in BCNF
+3. All the relations are in BCNF and 4NF.
 
-4. Yes our relations are in 4NF
